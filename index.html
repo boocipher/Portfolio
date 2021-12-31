@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/reset.css" />
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+
+  <body>
+   
+    <!-- Header -->
+    <header class="flex-container">
+      <div>
+        <img
+          src="images/01-my_avatar.png" alt="Avatar"
+          style="width: 50px; height: 50px"
+        />
+        <h1>Ellie's Portfolio</h1>
+      </div>
+
+      <nav>
+        <a href="#About">About Me</a>
+        <a href="#Work">Work</a>
+        <a href="#Contact">Contact Me</a>
+      </nav>
+    </header>
+
+    <!-- Body -->
+    <main>
+      <!-- Section About Me -->
+      <div>
+        <h2 id=About>About Me</h2>
+        <br>
+        <p>Paragraph about me</p>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat quam
+          nulla accusamus. Fugit commodi dolorem odit tempora dolor eius totam,
+          repellat optio provident facere animi eos veniam eligendi adipisci
+          aperiam.
+        </p>
+        <br>
+    
+      </div>
+      <h2 id=Work>My Work</h2>
+        <p>You can see some of my projects here</p>
+      <!-- Section Work -->
+      <div class="bigProject">
+        <section class="card">
+          <header>Big Project 1</header>
+          <a href="https://www.google.com"><img src="images/03-project.jpg" alt="Project 1" /></a>
+          <p>Lorem ipsum, dolor sit</p>
+        </section>
+
+        <div class="fluid">
+          <section class="card">
+          <header>Future project 1</header>
+          <a href="https://www/google.com"><img src="images/04-placeholder.jpg" alt="Placeholder 1" /></a>
+          <p>Lorem ipsum, dolor sit</p>
+        </section>
+        <section class="card">
+          <header>Future project 2</header>
+          <a href="https://www.google.com"><img src="images/05-placeholder.png" alt="Placeholder 2"/></a>
+          <p>Lorem ipsum, dolor sit</p>
+        </section>
+        </div>
+
+        <div class="fluid">
+          <section class="card">
+          <header>Future project 3</header>
+          <a href="ttps://www.google.com"><img src="images/06-placeholder.jpg" alt="Placeholder 3"/></a>
+          <p>Lorem ipsum, dolor sit</p>
+        </section>
+        <section class="card">
+          <header>SEO Project</header>
+          <a href="https://boocipher.github.io/Horiseon_refactor/"><img id="GIF" src="images/07-Horiseon_web.gif" alt="Placeholder 3"/></a>
+          <p>Lorem ipsum, dolor sit</p>
+        </section>
+        </div>
+      </div>
+      <br>
+
+      <!-- Section Contact with links to site, LinkedIn, github and Contact form-->
+      <div id=Contact class=Contact>
+        <h2>Contact me</h2>
+        <p>Use these details or the form below to get in touch with me</p>
+        <!-- <p>Contact Info Here</p> -->
+        <p>
+        <ul>
+          <li><strong>Email:</strong> <a href="#">myEmail@gmail.com</a></li>
+          <li><strong>Github:</strong> <a href="#">myGitHubPage</a></li>
+          <li><strong>LinkedIn:</strong> <a href="#">myLinkedInProfile</a></li></li>
+        </ul>
+      </p>
+        <!-- This version is from https://codepen.io/colorlib/pen/KVoZyv -->
+        <form id=Form action="" method="post">
+          <fieldset>
+            <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Your Email Address" type="email" tabindex="2" required>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3" required>
+          </fieldset>
+          <fieldset>
+            <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+          </fieldset>
+          <fieldset>
+            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+          </fieldset>
+          <!-- Forst attempt for form -->
+          <!-- <p>Your Name</p>
+          <input type="text">
+          <p>Your Email</p>
+          <input type="email" name="" id="">
+          <p>Your Message</p>
+          <input type="text">
+          <button type="submit">Send Message</button> -->
+        </form>
+        
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <h3>Made with ❤️️ and CSS by Ellie</h3>
+    </footer>
+  </body>
+</html>
